@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <div id="playerContainer"></div>
+    <script src="http://localhost:8080/indigo-player.js"></script>
+    <script src="./indigo-player-custom-extension.js"></script>
+    <script>
+      IndigoPlayer.setChunksPath('http://localhost:8080/');
+
+      const config = {
+        ui: true,
+        sources: [
+          {
+            type: 'mp4',
+            src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+          }
+        ],
+      };
+
+      const element = document.getElementById('playerContainer');
+      const player = IndigoPlayer.init(element, config);
+    </script>
+  </body>
+</html>
