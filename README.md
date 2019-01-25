@@ -10,5 +10,5 @@ More documentation can be found [here](https://matvp91.github.io/indigo-player/#
 yarn
 yarn run dev
 ```
-Open `http://localhost:8080` in your browser and start developing!
+Open `http://localhost:8082` in your browser and start developing!
 
