@@ -6,5 +6,9 @@ export const ExampleExtensionLoader = {
 
   create: instance => new ExampleExtension(instance),
 
-  isSupported: ({ config }): boolean => config.enableCustomExtension,
+  /**
+   * When the config contains the variable iAmACustomConfigVariable and it is true,
+   * load the ExampleExtension class.
+   */
+  isSupported: ({ config }): boolean => config.iAmACustomConfigVariable,
 };
