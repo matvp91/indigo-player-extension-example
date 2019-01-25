@@ -24,6 +24,8 @@ export class ExampleExtension extends Module {
      * @type {HTMLElement}
      */
     const container: HTMLElement = instance.container;
+
+    // NOTE: this.instance is available in the entire class after calling super(instance).
   }
 
   onControllerPlay(next) {

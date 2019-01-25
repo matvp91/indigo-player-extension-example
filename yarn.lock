@@ -1655,8 +1655,8 @@ ignore-walk@^3.0.1:
     minimatch "^3.0.4"
 
 immer@^1.10.0:
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-1.12.0.tgz#36063119eb65fa3f0e81ce000eb22f4eede9762e"
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/immer/-/immer-1.12.1.tgz#40c6e5b292c00560836c2993bda3a24379d466f5"
 
 import-local@^2.0.0:
   version "2.0.0"
@@ -1674,8 +1674,8 @@ indexof@0.0.1:
   resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
 
 indigo-player@^1.2.0-beta.0:
-  version "1.2.0-beta.0"
-  resolved "https://registry.yarnpkg.com/indigo-player/-/indigo-player-1.2.0-beta.0.tgz#2529638054e830f2c9605fdbcbaf269daeed4f99"
+  version "1.2.0-beta.1"
+  resolved "https://registry.yarnpkg.com/indigo-player/-/indigo-player-1.2.0-beta.1.tgz#01c3d330f14954a45c8c7e0c3ec6ac119ce18188"
   dependencies:
     can-autoplay "^3.0.0"
     classnames "^2.2.6"
