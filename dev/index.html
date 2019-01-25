@@ -18,8 +18,11 @@
       const element = document.getElementById('playerContainer');
       const player = IndigoPlayer.init(element, config);
 
-      // You can access your example extension using the getModule API.
-      // const exampleExtension = player.getModule('ExampleExtension');
+      player.on(IndigoPlayer.Events.READY, () => {
+        // You can access your example extension using the getModule API.
+        const exampleExtension = player.getModule('ExampleExtension');
+      });
+
     </script>
   </body>
 </html>
