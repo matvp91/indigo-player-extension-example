@@ -8,9 +8,6 @@ module.exports = {
     filename: `${pkg.name}.js`,
   },
   resolve: {
-    alias: {
-      'indigo-player': '../../pop-player',
-    },
     extensions: ['.ts', '.tsx', '.js', '.jsx']
   },
   module: {

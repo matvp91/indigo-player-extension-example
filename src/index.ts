@@ -1,4 +1,4 @@
 import { ExampleExtensionLoader } from './ExampleExtensionLoader';
-import * as IndigoPlayer from 'indigo-player';
+import { addModuleLoader } from 'indigo-player';
 
-IndigoPlayer.addModuleLoader(ExampleExtensionLoader);
+addModuleLoader(ExampleExtensionLoader);

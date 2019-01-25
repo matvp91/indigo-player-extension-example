@@ -1,13 +1,12 @@
 <html>
   <body>
     <div id="playerContainer"></div>
-    <script src="http://localhost:8080/indigo-player.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/indigo-player@1.2.0-beta.0/lib/indigo-player.js"></script>
     <script src="./indigo-player-custom-extension.js"></script>
     <script>
-      IndigoPlayer.setChunksPath('http://localhost:8080/');
-
       const config = {
         ui: true,
+        enableCustomExtension: true,
         sources: [
           {
             type: 'mp4',
@@ -18,6 +17,9 @@
 
       const element = document.getElementById('playerContainer');
       const player = IndigoPlayer.init(element, config);
+
+      // You can access your example extension using the getModule API.
+      // const exampleExtension = player.getModule('ExampleExtension');
     </script>
   </body>
 </html>

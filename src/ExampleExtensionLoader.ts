@@ -6,5 +6,5 @@ export const ExampleExtensionLoader = {
 
   create: instance => new ExampleExtension(instance),
 
-  isSupported: ({ config: Config }): boolean => true,
+  isSupported: ({ config }): boolean => config.enableCustomExtension,
 };
