@@ -1673,9 +1673,9 @@ indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
 
-indigo-player@^1.2.0-beta.0:
-  version "1.2.0-beta.1"
-  resolved "https://registry.yarnpkg.com/indigo-player/-/indigo-player-1.2.0-beta.1.tgz#01c3d330f14954a45c8c7e0c3ec6ac119ce18188"
+indigo-player@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/indigo-player/-/indigo-player-1.2.1.tgz#1807700bae56fc12314f555649f4c526235d3279"
   dependencies:
     can-autoplay "^3.0.0"
     classnames "^2.2.6"
